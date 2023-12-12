@@ -12,7 +12,7 @@ public class Task1 {
         if (num == 1) {
             System.out.println("YES");
             return;
-        } else if (num < 1) {
+        } else if (num % 2 != 0) {
             System.out.println("NO");
             return;
         }

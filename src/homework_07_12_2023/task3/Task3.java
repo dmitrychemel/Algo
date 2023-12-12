@@ -16,10 +16,11 @@ public class Task3 {
     }
 
     public static int fibonacciNumber(int n) {
+        int sum = 0;
         if (n <= 1) {
             return n;
         }
 
-        return fibonacciNumber(n - 2) +fibonacciNumber(n - 1);
+        return fibonacciNumber(n - 2) + fibonacciNumber(n - 1);
     }
 }
